@@ -1,0 +1,72 @@
+#neonplant {
+    width: 400px;
+    height: 710px;
+    background-size: contain;
+    background-image: url(https://i.pinimg.com/originals/97/02/88/9702881b3676578b2c5f76d44a2286d7.jpg);
+}
+.neontitle {
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    margin: 10px 10px 10px 25px;
+}
+.title1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #727DDC;
+    text-shadow: 2px 2px 3px #F3C3ED;
+}
+.title2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1FA2C0;
+}
+.plantcontent {
+    width: 350px;
+    height: 500px;
+    margin: 20px 10px 10px 25px;
+    align-items: center;
+    justify-content: center;
+}
+.plantcontent::before {
+    content: "";
+    background-color: wheat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    margin: 130px 10px 10px 130px;
+    width: 350px;
+    height: 500px;
+}
+.tartalom {
+    width: 350px;
+    height: 500px;
+    margin: 20px 10px 10px 25px;
+    overflow: scroll;
+}
+.planttext {
+    font: normal calibri 11px;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5;
+    color: #D7E75C;
+    margin: 20px 40px 10px 0px;
+}
+.plantbottom {
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    margin: 20px 20px 10px 25px;
+}
+.bottomtext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1FA2C0;
+    font-size: 11px;
+    line-height: 4.5;
+}
